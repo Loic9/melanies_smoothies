@@ -22,7 +22,7 @@ my_dataframe = session.table("smoothies.public.fruit_options").select(col('fruit
 #Convert the snpwpark df to the pandas df
 pd_df = my_dataframe.to_pandas()
 st.dataframe(pd_df)
-st.stop()
+#st.stop()
 
 
 name_on_order = st.text_input('Name on Smoothie:')
