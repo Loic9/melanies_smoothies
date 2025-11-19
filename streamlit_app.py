@@ -23,7 +23,7 @@ st.write('The name on your smoothie will be:', name_on_order)
 ingredients_list = st.multiselect(
     "Choose up to 5 ingredients",
     my_dataframe,
-    max_selections = 20
+    max_selections = 40
 )
 
 if ingredients_list:
